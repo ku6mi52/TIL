@@ -17,6 +17,18 @@ a {
   text-decoration: none;
 }
 
+.top-image {
+  background-image: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80");
+  height: 300px;
+  width: 100%;
+  max-width: 700px;
+  background-size: contain;
+  background-position: center;
+  text-align: center;
+  line-height: 300px;
+  font-size: 70px;
+}
+
 .container {
   width: 1120px;
   padding: 20px;
@@ -72,4 +84,11 @@ header {
   font-size: 24px;
   cursor: pointer;
   display: none;
+}
+
+.top-wrapper {
+  margin-top: 8px;
+  border: solid;
+  width: 300px;
+  word-break: break-word;
 }
