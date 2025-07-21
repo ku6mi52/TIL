@@ -16,8 +16,9 @@ while (number <= 100) {
   number += 1;
 }
 ▶1~100までの数字が出力される
-[出力結果](./ex01-while.js)
 ```
+[出力結果](./ex01-while.js)
+
 
 ### for文
 while文よりシンプルに繰り返し処理コードが書けるのがfor文。  
@@ -32,8 +33,9 @@ for (let number = 1; number <= 100; number++) {
   }
 }
 ▶1~100までの数字が順に出力され、3の倍数のときは「3の倍数です」と出力される。
-[出力結果](./ex02-for.js)
 ```
+[出力結果](./ex02-for.js)
+
 省略形について↓
 `number = number + 1  →  number += 1  →  number++`
 `number = number - 1  →  number -= 1  →  number--`
